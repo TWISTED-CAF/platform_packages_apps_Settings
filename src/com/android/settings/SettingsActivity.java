@@ -138,6 +138,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
+// TWISTED
+import com.android.settings.twisted.TwistedSettings;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -271,6 +273,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.PowerUsageSummaryActivity.class.getName(),
             Settings.GestureSettingsActivity.class.getName(),
             //personal_section
+            Settings.TwistedSettingsActivity.class.getName(),
             Settings.ProfileMgrMainActivity.class.getName(),
             Settings.LocationSettingsActivity.class.getName(),
             Settings.SecuritySettingsActivity.class.getName(),
@@ -386,7 +389,8 @@ public class SettingsActivity extends SettingsDrawerActivity
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
-            ButtonsSettings.class.getName()
+            ButtonsSettings.class.getName(),
+	     TwistedSettings.class.getName()
     };
 
 
